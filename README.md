@@ -46,7 +46,9 @@ Click the "Login to Spotify" button in the app and follow the instructions to au
 View your top tracks:
 Once authenticated, the app will display insights about your top Spotify tracks.
 
-Technologies Used
+Technologies Used: 
+
+
 Spotipy - Spotify API wrapper for Python
 Streamlit - Web application framework for Python
 Pandas - Data manipulation and analysis library for Python
