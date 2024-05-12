@@ -43,7 +43,8 @@ source .env && streamlit run main.py
 For Windows:
 
 
-.\.env && streamlit run main.py
+.\\.env && streamlit run spotify_analysis.py
+
 
 # 5) Authenticate with Spotify:
 Click the "Login to Spotify" button in the app and follow the instructions to authorize Spotify access.
