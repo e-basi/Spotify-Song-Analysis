@@ -27,6 +27,9 @@ pip install -r requirements.txt
 Create a .env file in the root directory with your Spotify CLIENT_ID and CLIENT_SECRET:
 
 export CLIENT_ID=your_client_id_here
+
+
+
 export CLIENT_SECRET=your_client_secret_here
 
 # 4) Run the application:
@@ -34,6 +37,8 @@ export CLIENT_SECRET=your_client_secret_here
 For Mac/Linux:
 
 source .env && streamlit run main.py
+
+
 
 For Windows:
 
@@ -44,9 +49,12 @@ For Windows:
 Click the "Login to Spotify" button in the app and follow the instructions to authorize Spotify access.
 
 # View your top tracks:
+
+
 Once authenticated, the app will display insights about your top Spotify tracks.
 
 # Technologies Used: 
+
 
 
 Spotipy - Spotify API wrapper for Python
