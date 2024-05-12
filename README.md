@@ -11,25 +11,25 @@ Overall, this project provides a simple and interactive way for users to explore
 
 ![Screenshot (27)](https://github.com/e-basi/Spotify-Song-Analysis/assets/93174387/12ae7a2d-6088-4823-91fe-3aa9f0447444)
 
-#Getting Started
+# Getting Started
 
-#1) Clone the repository:
+# 1) Clone the repository:
 
 git clone https://github.com/your-username/spotify-song-analysis.git
 
 
-#2) Install dependencies:
+# 2) Install dependencies:
 
 pip install -r requirements.txt
 
 
-#3) Set up environment variables:
+# 3) Set up environment variables:
 Create a .env file in the root directory with your Spotify CLIENT_ID and CLIENT_SECRET:
 
 export CLIENT_ID=your_client_id_here
 export CLIENT_SECRET=your_client_secret_here
 
-4) Run the application:
+# 4) Run the application:
    
 For Mac/Linux:
 
@@ -40,13 +40,13 @@ For Windows:
 
 .\.env && streamlit run main.py
 
-##5) Authenticate with Spotify:
+# 5) Authenticate with Spotify:
 Click the "Login to Spotify" button in the app and follow the instructions to authorize Spotify access.
 
-#View your top tracks:
+# View your top tracks:
 Once authenticated, the app will display insights about your top Spotify tracks.
 
-#Technologies Used: 
+# Technologies Used: 
 
 
 Spotipy - Spotify API wrapper for Python
